@@ -1,0 +1,62 @@
+
+.navbar{
+    display: grid;
+    background: rgb(220, 220, 220);
+    color: rgb(34, 34, 34);
+    grid-template-columns: 1fr 3fr 1.5fr;
+}
+
+
+#logo,#search,#post,#account{
+    margin: 1px;
+    /* background: rgb(187, 187, 187); */
+    height: 3em;
+}
+
+#logo{
+    display: flex;
+    /* text-align: center; */
+    /* width: 50%; */
+    justify-content: start;
+    align-items: center;
+}
+
+#search{
+    border-radius: 10px;
+    border: solid rgb(149, 149, 149) 1px;
+    /* background: rgb(177, 177, 177); */
+    width: 50%;
+    justify-content: start;
+}
+
+#account{
+    display: inline-flex;
+    justify-content: end;
+    /* margin-left: 18rem; */
+    /* margin-right: 1rem; */
+    /* width: 30%; */
+    /* justify-content: flex-end; */
+
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(194, 194, 194);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    /* width: auto; */
+    /* margin: auto; */
+    padding: 1em;
+    margin: 1px;
+    user-select: none;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+#button:hover{
+    border: solid rgb(149, 149, 149) 1px;
+    background: rgb(222, 222, 222);
+}

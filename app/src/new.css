@@ -1,0 +1,43 @@
+#page{
+	display: grid;
+	grid-template-columns:  4fr 1fr;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* justify-items: center; */
+	margin: auto;
+	width: 50rem;
+	height: 30rem;
+	padding: 1em;
+	background: rgb(210, 210, 210);
+	border-radius: 10px;
+}
+
+textarea{
+	resize: none;
+	border: none;
+	width: 100%;
+}
+
+#title-ta{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#tags-ta{
+	font-size: 18px;
+}
+
+#content-ta{
+	height: 10em;
+	margin: auto;
+	font-size: 24px;
+	overflow-x: hidden;
+	overflow-y:hidden;
+}

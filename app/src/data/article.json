@@ -1,0 +1,59 @@
+{
+  "blogs": [
+    {
+      "id": 0,
+      "username": "Anant",
+      "date": "01/02/2020",
+      "title": "How to become a Full Stack Developer in 2022",
+      "content": "",
+      "tags": [
+        "#MERN",
+        "#ReactJs",
+        "#BhaiLang"
+      ],
+      "likes": 41,
+      "comments": 5
+    },
+    {
+      "id": 1,
+      "username": "Aniket",
+      "date": "01/02/2020",
+      "title": "Crack DSA!!",
+      "content": "",
+      "tags": [
+        "#DSA",
+        "#leetCode"
+      ],
+      "likes": 33,
+      "comments": 6
+    },
+    {
+      "id": 2,
+      "username": "Aryan",
+      "date": "01/02/2020",
+      "title": "Best options if you fail to become a Full Stack Developer ;_;",
+      "content": "",
+      "tags": [
+        "#cabDriver",
+        "#peon"
+      ],
+      "likes": 10,
+      "comments": 99
+    },
+    {
+      "id": 3,
+      "username": "Archit",
+      "date": "01/02/2020",
+      "title": "PUBG FreeFire go Brrrrrrrrr!!!!!",
+      "content": "",
+      "tags": [
+        "#PUBG",
+        "#FreeFire",
+        "#YouTuber",
+        "#Sc0utOp"
+      ],
+      "likes": 0,
+      "comments": 0
+    }
+  ]
+}

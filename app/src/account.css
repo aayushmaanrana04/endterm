@@ -1,0 +1,48 @@
+#account-card{
+    display: flex;
+    flex-direction: column;
+    background: rgb(95, 95, 95);
+    /* height: 20em; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: block;
+    margin: 2em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    align-self: flex-end;
+}
+
+#form-holder{
+    display: flex;
+    padding: 1em;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#form{
+    padding: 2em;
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-auto-rows: auto;
+    width: 100%;
+}
+
+#form div{
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+input{
+    border: solid rgb(149, 149, 149) 1px;
+    font-size: 24px;
+    height: 2em;
+    outline: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+}
